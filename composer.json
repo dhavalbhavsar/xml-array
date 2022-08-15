@@ -1,0 +1,40 @@
+{
+    "name": "jackiedo/xml-array",
+    "description": "Simple tools to work with the conversion between xml and array",
+    "keywords": [
+        "xml",
+        "array",
+        "xml-to-array",
+        "xmltoarray",
+        "xml-2-array",
+        "xml2array",
+        "array-to-xml",
+        "arraytoxml",
+        "array-2-xml",
+        "array2xml",
+        "convert",
+        "conversion"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jackie Do",
+            "email": "anhvudo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-dom": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jackiedo\\XmlArray\\": "src/",
+            "Jackiedo\\XmlArrayTests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
